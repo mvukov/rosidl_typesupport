@@ -17,7 +17,7 @@ TEMPLATE(
 
 @{
 header_files = [
-    'cstddef',
+    'stddef.h',
     'rosidl_runtime_c/service_type_support_struct.h',
     package_name + '/msg/rosidl_typesupport_c__visibility_control.h',
 ]

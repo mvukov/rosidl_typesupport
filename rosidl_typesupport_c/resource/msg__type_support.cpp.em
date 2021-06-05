@@ -6,7 +6,7 @@ include_parts = [package_name] + list(interface_path.parents[0].parts) + [
 include_base = '/'.join(include_parts)
 
 header_files = [
-    'cstddef',
+    'stddef.h',
     'rosidl_runtime_c/message_type_support_struct.h',
     package_name + '/msg/rosidl_typesupport_c__visibility_control.h',
     include_base + '__struct.h',
